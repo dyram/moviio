@@ -1,0 +1,50 @@
+.moviesListDiv {
+  color: white;
+}
+.moviesListNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.movieContainer {
+  padding: 2%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 4%;
+}
+.movieContainer > div {
+  padding: 0 2%;
+}
+.movieContainer > div > h4 {
+  margin: 0;
+}
+.movieName {
+  font-size: x-large;
+  text-transform: uppercase;
+  background: yellow;
+  color: black;
+  padding: 10px;
+}
+.movieDesc {
+  font-size: large;
+}
+.movieCast {
+  text-transform: uppercase;
+}
+.movieDirec {
+  text-transform: uppercase;
+}
+.moviesList {
+  background: #323232;
+}
+.movieRating {
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+  width: 18%;
+  display: flex;
+  flex-direction: row;
+  height: 3vh;
+}

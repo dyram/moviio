@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  color: white;
+  align-items: center;
+}
+.navbarButton {
+  border: none;
+  background: none;
+  color: whitesmoke;
+  font-size: larger;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
+  margin-left: auto;
+  padding: 1%;
+}
+.navbarButton:hover {
+  cursor: -webkit-grab;
+  color: yellow;
+}
+
+.navbarButton:active {
+  cursor: -webkit-grabbing;
+}
+
+.carouselDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.carouselDiv > * {
+  padding: 20px;
+}
